@@ -2,7 +2,7 @@ import axios from "axios"
 import { useUserStore } from "../store/useUserStore"
 
 const apiInstance = axios.create({
-    baseURL: "https://kitek.ktkv.dev/feedback/api/",
+    baseURL: "stud7.s1gn4l.ru",
     headers: {
         "Content-Type": "application/json"
     }
